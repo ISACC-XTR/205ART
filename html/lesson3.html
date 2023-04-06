@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lesson 3, CSS</title>
+  <style>
+  
+    table{
+      background: linear-gradient(to bottom, red, orange);
+      width: 100%;
+      font:bolder 20px Georgia;
+      text-align: center;
+    }
+    td a{
+      text-decoration: none;
+      color: white ;
+      padding: 2px 10px;
+    }
+    form{
+      background: linear-gradient(skyblue, darkblue);
+      text-align: center;
+      padding: 10px 0; 
+      color: white;
+      font:bolder 20px georgia;
+    }
+    input{
+      border: 2px solid black;
+      border-radius: 25px 25px;
+    }
+    input::placeholder{
+      text-align: center;
+      font-family: times;
+    }
+    form :last-child{
+      background: linear-gradient(to bottom, red, white);
+      color: black;
+      padding:5px 10px ;
+      font:bolder 15px georgia;
+    }
+    form :last-child:active{
+      color: white;
+      background: linear-gradient(to top, black, white)
+    }
+  </style>
+</head>
+  <!-- Let add somw CSS -->
+<body>
+  <h1>Weldome to Isacc HIML page!</h1>
+  <table border="0" cellpadding="10" cellspacing="1">
+      <tr>
+        <td><a href="#">Home</a></td>
+        <td><a href="#">Courses</a></td>
+        <td><a href="#">About Us</a></td>
+        <td><a href="#">Log In</a></td> 
+      </tr>
+  </table>
+    <hr>
+    <h3>What is MakeWRLD</h2>
+    <p>
+      MakeWRLD is a free coding platform that gives you the opportunity to learn how to code and build websites with <strong>ZERO</strong> charge.
+    </p>
+    <br>
+    <h2>Why MakeWRLD?</h2>
+    <ol>
+      <li>Real-world coding</li>
+      <li>Free courses</li>
+      <li>Hundreds of projects to practice on</li>
+    </ol>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OVHXTBZu-Zs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h3>Thanks for viewing!</h3>
+    <hr>
+    <form>
+      <label for="name">Name:</label> <br>
+      <input type="text" name="name" id="" placeholder="Enter your full name">
+      <br><br>
+      <label for="email">Email</label><br>
+      <input type="email" name="e" id="" placeholder="example@gmail.com">
+      <br><br>
+      <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+
+</html>
