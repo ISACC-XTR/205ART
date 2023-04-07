@@ -11,5 +11,19 @@ nav{
 nav ul{
   background-color: #fee;
   list-style: none;
+}
+nav ul li{
+  float: left;
   
+}
+nav ul :nth-child(5), nav ul :nth-child(6){
+  float: right;
+}
+nav ul li a{
+  text-align: center;
+  display: block;
+  min-height: 16px;
+  text-decoration: none;
+  text-transform: uppercase ;
+  padding: 14px;
 }
