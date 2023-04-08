@@ -33,15 +33,8 @@ nav ul li a{
   font-weight: bold;
 }
 
-nav ul li.dropdown{
-  display: none;
-}
-
 /* —— NAV LIST HOVER —— */
 nav ul li a:hover{
   background-color: #0080ff;
   color: #fff;
 }
-
-/* —— MOBILE RESPONSIVE —— */
-
