@@ -1,24 +1,26 @@
+/*##### GENERAL #####*/
 *{
   margin: 0;
   padding: 0;
   line-height: 1;
 }
-header,
-footer,
-nav{
-  display: block;
-}
+
+/* —— NAV —— */
 nav ul{
   background-color: #fee;
   list-style: none;
 }
+
+/* —— NAV LIST —— */
 nav ul li{
   float: left;
   
 }
-nav ul :nth-child(5), nav ul :nth-child(6){
+nav ul .right{
   float: right;
 }
+
+/* —— NAV LIST ANCHOR —— */
 nav ul li a{
   text-align: center;
   display: block;
@@ -30,7 +32,14 @@ nav ul li a{
   font-family: 'times', 'georgia';
   font-weight: bold;
 }
+
+/* —— NAV LIST HOVER —— */
 nav ul li a:hover{
   background-color: #0080ff;
   color: #fff;
+}
+
+/* —— MOBILE —— */
+@media screen and (max-width: 1200px;) {
+  header{ color: red;}
 }
