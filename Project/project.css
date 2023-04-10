@@ -1,0 +1,96 @@
+/* ----- GENERAL ------ */
+*{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+   color: #000;
+   line-height: 1;
+}
+
+/* ----- NAV NAR ------*/
+nav{
+   width: 100%;
+}
+nav ul.topnav{
+   background-color: #c0c7cc;
+   overflow: hidden;
+}
+ul.topnav li{
+   float: left;
+}
+ul.topnav li.topnavright{
+   float: right;
+}
+ul.topnav li a,
+ul.topnav li.one{
+   padding: 14px;
+   font-size: 45px;
+   text-align: center;
+   display: block;
+   text-transform: uppercase;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bold;
+   color: #333;
+}
+ul.topnav li.one{
+   font-family: georgia;
+   font-weight: bolder;
+}
+ul.topnav li a:hover{
+   background: #0355ff;
+   color: #fff;
+}
+ul.topnav li.dropdownIcon a:hover{
+   transition: 1s ease-out;
+   background: linear-gradient(#f9b900, #0355ff, #f7b538);
+}
+/*---- RESPONSIVE ----*/
+@media screen and (min-width: 850px){
+   ul.topnav li.dropdownIcon,
+   ul.topnav li.one{
+      display: none;
+   }
+   ul.topnav li a{
+      font-size: 30px;
+   }
+}
+
+@media screen and (max-width: 800px) { 
+   ul.topnav li:not(.one, .dropdownIcon){
+      display: none;
+   }
+   ul.topnav li.dropdownIcon{
+      float: right;
+   }
+   
+   ul.topnav.responsive li.dropdownIcon{
+      position: absolute;
+      top: 0;
+      right: 0;
+   }
+   ul.topnav.responsive li.one{
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+   
+   ul.topnav.responsive{
+      position: relative;
+      padding-top: 50px;
+   }
+   
+   ul.topnav.responsive li{
+      display: inline;
+      float: none;
+   }
+   
+   ul.topnav.responsive li a{
+      display: block;
+      text-align: center;
+      font-size: 25px;
+      
+   }
+} 
+/* ---- OUR NAV BAR IS NOW RESPONSIVE ----*/
