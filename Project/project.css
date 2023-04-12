@@ -44,7 +44,8 @@ ul.topnav li a:hover{
 }
 ul.topnav li.dropdownIcon a:hover{
    transition: 1s ease-out;
-   background: linear-gradient(#f9b900, #0355ff, #f7b538);
+   background-color: grey;
+   box-shadow: -5px 5px 5px black;
 }
 /*---- RESPONSIVE ----*/
 @media screen and (min-width: 850px){
