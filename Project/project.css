@@ -56,6 +56,12 @@ ul.topnav li.dropdownIcon a:hover{
 #sec1{
    background: linear-gradient(#076dff, #65a5ff);
 }
+div.leftside-col{
+   margin-left: 30%;
+}
+div.rightside-col{
+   margin-right: 15%;
+}
 .row{
    width: 100%;
    display: flex;
@@ -70,18 +76,38 @@ ul.topnav li.dropdownIcon a:hover{
 }
 h1.large{
    color: #fff;
-   font-size: 56px;
+   font-size: 35px;
    margin: 0;
-   line-height: 70px;
+   line-height: 40px;
 }
+form h2{
+   color: #fff;
+}
+input[type="text"]{
+   font-size: 20px;
+   width: 400px;
+   min-width: 100px;
+   padding: 5px;
+   background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .col-1{width:8.33%}
 .col-2{width: 16.66%}
 .col-3{width: 25%}
 .col-4{width: 33.33%}
-.col-1{width: 41.66%}
-.col-1{width: 50%}
-.col-8{width: 58.33%}
-.col-9{width: 66.66%}
+.col-5{width: 41.66%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.66%}
 .col-1{width: 75%}
 .col-10{width: 83.33%}
 .col-11{width: 91.66%}
@@ -131,6 +157,14 @@ h1.large{
       text-align: center;
       font-size: 25px;
       
+   }
+   .col-6 {
+      width: 100%;
+      margin: 0;
+   }
+   div.leftside-col,
+   div.rightside-col{
+      margin: 15px;
    }
 } 
 /* ---- OUR NAV BAR IS NOW RESPONSIVE ----*/
