@@ -20,20 +20,76 @@ header nav {
    flex-direction: row;
    justify-content: space-between;
    align-items: center;
-   padding: 0 10px;
+   padding: 10px;
+}
+section.technology{
+   padding: auto 0;
 }
 
 div.navMenuWarp ul{
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   align-items: center
+   align-items: center;
+   column-gap: 20px;
+   
 }
 div.navMenuWarp ul li a{
    color: white;
-   padding: 0 20px;
    font: bold 20px arial, 'san-serif';
+   text-align: center;
 }
 
 /*---- HEADER DESIGN DONE ----*/
+/*--- All sections height = 500px ---*/
+section.banner,
+section.technology,
+section.team{
+   height: 500px;
+}
 
+/*--- Banner ---*/
+.banner{
+   margin-top: 73px;
+   background: url(../images/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+}
+/*---- Our Technology ---*/
+
+
+section.technology h2,
+section.technology p{
+   text-align: center;
+   color: #038707;
+}
+section.technology h2{
+   font-size: 40px;
+   padding: 20px 0;
+}
+section.technology p{
+   font-size: 28px;
+   padding-bottom: 20px;
+}
+div.technologyContainer{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+div.icons{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   justify-items: center;
+   row-gap: 40px
+}
+div.icons img{
+   width: 130px;
+}
+
+/*---- Our Team Section ---*/
+section.team{
+   background-color: #038707;
+}
