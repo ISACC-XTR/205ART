@@ -9,6 +9,10 @@
 /*--- Header ---*/
 header{
    background-color: #038707;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
 }
 
 header nav {
@@ -18,3 +22,18 @@ header nav {
    align-items: center;
    padding: 0 10px;
 }
+
+div.navMenuWarp ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center
+}
+div.navMenuWarp ul li a{
+   color: white;
+   padding: 0 20px;
+   font: bold 20px arial, 'san-serif';
+}
+
+/*---- HEADER DESIGN DONE ----*/
+
