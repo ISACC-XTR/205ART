@@ -214,7 +214,7 @@ div.fellowUsContainer{
 
    display: flex;
    flex-direction: column;
-   justify-content: center ;
+   justify-content: space-evenly ;
    row-gap: 30px;
 }
 div.fellowUsContainer h3{
