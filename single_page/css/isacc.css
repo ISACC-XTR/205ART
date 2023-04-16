@@ -216,6 +216,7 @@ div.fellowUsContainer{
    flex-direction: column;
    justify-content: space-evenly ;
    row-gap: 30px;
+   flex: 1;
 }
 div.fellowUsContainer h3{
    text-align: center;
