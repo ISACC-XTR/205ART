@@ -240,7 +240,7 @@ input.subscribeButtom{
    border-bottom-left-radius: 0;
 }
 input.subscribeInput{
-   width: 300px;
+   width: 200px;
    border: 1px solid #fff;
    border-radius: 5px 0 0 5px;
    padding: 0 10px;
