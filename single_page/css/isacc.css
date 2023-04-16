@@ -95,15 +95,16 @@ section.team{
    padding-top: 50px;
    margin-top: 50px;
 }
-section.team h2,
 section.team p{
-   color: #fff;
-   font-size: 25px;
-   text-align: center;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
 }
 section.team h2{
    font-size: 40px;
    padding: 10px 0;
+   text-align: center;
+   color: #fff;
 }
 div.details{
    display: flex;
