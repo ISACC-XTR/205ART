@@ -97,6 +97,11 @@ section.team{
    padding-top: 50px;
    margin-top: 50px;
 }
+.para{
+   color: #fff;
+   text-align: center;
+   font-size: 20px;
+}
 section.team p{
   color: #ffffff;
   text-align: center;
