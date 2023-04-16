@@ -60,7 +60,6 @@ section.contact{
 }
 /*---- Our Technology ---*/
 
-
 section.technology h2,
 section.technology p{
    text-align: center;
@@ -94,6 +93,7 @@ div.icons img{
 section.team{
    background-color: #038707;
    padding-top: 50px;
+   margin-top: 50px;
 }
 section.team h2,
 section.team p{
@@ -220,7 +220,7 @@ div.fellowUsContainer{
 }
 div.fellowUsContainer h3{
    text-align: center;
-   font-size: 35px;
+   font-size: 30px;
 }
 div.imgContainer{
    display: flex;
@@ -229,7 +229,7 @@ div.imgContainer{
 }
 div.subscribeForm{
    display: flex;
-   justify-content: center;
+   justify-content: center; 
 }
 div.subscribeForm form input{
    height: 35px;
