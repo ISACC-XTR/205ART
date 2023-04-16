@@ -44,7 +44,8 @@ div.navMenuWarp ul li a{
 /*--- All sections height = 500px ---*/
 section.banner,
 section.technology,
-section.team{
+section.team,
+section.contact{
    height: 500px;
 }
 
@@ -92,4 +93,162 @@ div.icons img{
 /*---- Our Team Section ---*/
 section.team{
    background-color: #038707;
+   padding-top: 50px;
+}
+section.team h2,
+section.team p{
+   color: #fff;
+   font-size: 25px;
+   text-align: center;
+}
+section.team h2{
+   font-size: 40px;
+   padding: 10px 0;
+}
+div.details{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 30px;
+}
+div.animated3{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+div.animated3 img{
+   width: 200px;
+}
+div.animated3 p{
+   font-size: 20px;
+}
+div.animated3 h4{
+   font-size: 25px;
+   color: #fff;
+}
+
+/*----- Contact -----*/
+section.contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: #038707;
+}
+section.contact h2{
+   text-align: center;
+   font-size: 40px;
+   margin: 30px 0;
+}
+div.contactContainer {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 30px;
+}
+div.contactContainer h4{
+   font-size: 30px;
+   text-align: center;
+}
+div.address{
+   border-left: 3px solid #038707;
+   padding-left: 10px;
+   font-size: 25px;
+   margin: 20px 0;
+   text-align: content;
+}
+div.animated4-left h4{
+  padding-left: 20px;
+}
+.sendMessageContainer form input{
+   width: 350px;
+   border: 2px solid #038707;
+   height: 35px;
+   margin: 7px 0;
+   border-radius: 5px;
+   padding: 10px;
+}
+.sendMessageContainer form textarea{
+   width: 350px;
+   border: 2px solid #038707;
+   height: 150px;
+   margin-top: 10px;
+   border-radius: 5px;
+   padding: 10px;
+}
+.sendMessageContainer form input[type="submit"]{
+   background-color: #038707;
+   color: #fff;
+   font-size: 25px;
+   height: 40px;
+   padding: 5px 0;
+}
+
+/*--- FOOTER STYLING ----*/
+footer{
+   background-color: #038707;
+}
+div.footerWarp{
+   display: flex;
+   padding: 20px;
+   column-gap: 20px;
+   color: #fff;
+}
+div.footerList{
+   font-size: 20px;
+}
+div.footerList h3,
+div.footerList ul li{
+   padding: 3px 0;
+}
+div.copyRightDetials{
+   display: block;
+   text-align: left;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   color: #fff;
+}
+div.fellowUsContainer{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center ;
+   row-gap: 30px;
+}
+div.fellowUsContainer h3{
+   text-align: center;
+   font-size: 35px;
+}
+div.imgContainer{
+   display: flex;
+   justify-content: center;
+   column-gap: 20px;
+}
+div.subscribeForm{
+   display: flex;
+   justify-content: center;
+}
+div.subscribeForm form input{
+   height: 35px;
+}
+input.subscribeButtom{
+   background-color: #fff;
+   border: none;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
+}
+input.subscribeInput{
+   width: 300px;
+   border: 1px solid #fff;
+   border-radius: 5px 0 0 5px;
+   padding: 0 10px;
+   font-size: 20px;
+}
+input.subscribeButtom{
+   background-color: #115d14;
+   color: #fff;
+   padding: 0.6px 10px;
+   font-size: 20px;
+   font-weight: bood;
+   border-radius: 0 5px 5px 0;
+   margin-left: -5px;
 }
