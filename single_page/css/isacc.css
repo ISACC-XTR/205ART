@@ -193,12 +193,15 @@ div.footerWarp{
    column-gap: 20px;
    color: #fff;
 }
-div.footerList{
-   font-size: 20px;
-}
 div.footerList h3,
 div.footerList ul li{
    padding: 3px 0;
+}
+div.footerList h3{
+   font-size: 20px;
+}
+div.footerList p{
+   font-size: 10px;
 }
 div.copyRightDetials{
    display: block;
