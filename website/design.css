@@ -1,0 +1,135 @@
+/***** Universal Styling *****/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Main tag and background image ****/
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/***** Header and Nav bar styling ******/
+header{
+    width: 100%;
+}
+nav{
+    display: flex;
+    column-fill: 10px;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav h1{
+    flex: 1;
+}
+
+/*** Page Name ***/
+nav h1{
+    color: #ff7200;
+    font: bolder 35px Times;
+}
+
+/**** form and seach button ****/
+form.form input[type="search"]{
+    background: transparent;
+    height: 30px;
+    border: 1px solid #ff7200;
+    border-radius: 20px 0 0 20px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+form.form input[type="search"]::placeholder{
+    color: #fff;
+    font-family: Times, serif;
+}
+
+form.form input[type="submit"]{
+    color: #fff;
+    min-height: 30px;
+    background-color: #ff7200;
+    padding: 2px 7px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    margin-left: -5px;
+}
+
+/**** Nav manu ****/
+ul.menu{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+ul.menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: 0.6s ease-out;
+}
+
+ul.menu li a:hover{
+    color: #ff7200;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**** RESPONSIVENESS ******/
+
+@media screen and (min-width: 850px){
+    form.form1{
+        display: none;
+    }
+    ul.menu li.menu-bar {
+        display: none;
+    }
+    ul.menu{
+        margin-right: 20px;
+        
+    }
+}
+/**** WIDTH ONE ******/
+@media screen and (max-width: 800px){
+    form.form2{
+        display: none;
+    }
+    ul.menu li:not(li.menu-bar){
+        display: none;
+    }
+    ul.menu li.menu-bar a{
+        margin-left: 15px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    /**** responsive Class Added ****/
+    ul.menu.responsive{
+        position: relative;
+    }
+     
+}
+
+/******* WIDTH TWO *****/
+@media screen and (max-width: 72px){
+    
+}

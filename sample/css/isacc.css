@@ -49,6 +49,7 @@ section.technology,
 section.team,
 section.contact{
    height: 500px;
+   width: 100%;
 }
 
 /*--- Banner ---*/
