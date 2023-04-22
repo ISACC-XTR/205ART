@@ -254,6 +254,11 @@ div.ask h3 a {
    .nav-menu.active{
       left: 0;
    }
+   
+   main.main.margin{
+       margin-top: 50px;
+   }
+   
 }
 
 /**** 720px Screen Width ****/
