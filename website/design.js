@@ -13,3 +13,15 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
    navMenu.classList.remove("active");
    main.classList.remove("margin");
 }))
+
+document.querySelectorAll(".main").forEach(n =>n.addEventListener("click", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+    main.classList.remove("margin");
+}))
+
+/*document.querySelectorAll(".main").forEach(n =>n.addEventListener("scroll", () => {
+    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
+    main.classList.remove("margin");
+}))*/
