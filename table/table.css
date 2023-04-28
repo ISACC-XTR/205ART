@@ -1,0 +1,131 @@
+        /* universal selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*Styling of the navigation link
+           - style it your way -
+        */
+        nav{
+            background-color: #ff33fa;
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+            width: 100%;
+        }
+        
+        /* unordered list and list items */
+        ul{
+            flex: 1;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 10px;
+        }
+        
+        /* list anchor styling */
+        
+        ul li a{
+            text-decoration: none;
+            color: #ff0;
+            font: bold 25px times;
+            padding: 7px 20px;
+        }
+        
+        /* heading */
+        nav h2{
+            flex: 1;
+            padding: 0 10px;
+            font: bolder 30px georgia;
+            text-transform: capitalize;
+            color: #00e;
+        }
+        
+        nav h2::first-letter{
+            font: bolder 50px cursive;
+            color: #ff0;
+        }
+        
+        /* list anchor styling on hover */
+        ul li a:hover{
+            color: #f8d;
+            background-color: #ff0;
+            color: #00e;
+        }
+        /* container */
+        main.container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        /*  table design */
+        
+        
+        table th,
+        table td,
+        table{
+            border-collapse: collapse;
+            border: none;
+        }
+        table{
+            margin: 20px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        
+        table tr:nth-of-type(2n){
+            background-color: #666;
+        }
+        
+        table tr:nth-of-type(odd){
+            background-color: #899;
+        }
+        
+        table th,
+        table td{
+            padding: 5px 10px;
+            font-size: 20px;
+            color: #fff;
+            text-align: center;
+        }
+        
+        table tr.row{
+            background: #666;
+        }
+        
+        table tbody td:nth-child(3),
+        table tr th:nth-child(3){
+            background: linear-gradient(rgba(0,20,10,0.2), rgba(0,20,10,0.2));
+        }
+        
+        table tbody td:nth-child(5),
+        table tr th:nth-child(5){
+            background: linear-gradient(rgba(0,20,10,0.2), rgba(0,20,10,0.2));
+        }
+        
+        table tbody td:nth-child(7),
+        table tr th:nth-child(7){
+            background: linear-gradient(rgba(0,20,10,0.2), rgba(0,20,10,0.2));
+        }
+        
+        table tbody td:nth-child(9),
+        table tr th:nth-child(9){
+            background: linear-gradient(rgba(0,20,10,0.2), rgba(0,20,10,0.2));
+        }
+        
+        table tbody td:nth-child(1),
+        table tr th:nth-child(1){
+            background: linear-gradient(rgba(0,20,10,0.2), rgba(0,20,10,0.2));
+        }
+        
+        table caption{
+            font: bold 35px times;
+            padding: 5px 0;
+        }
+        table tr.row th:nth-child(2),
+        table tbody tr td:nth-child(2){
+            text-align: left;
+        }

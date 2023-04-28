@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav {
+    background: #33b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3px 20px;
+}
+
+nav h1 {
+    flex: 1;
+    color: #fff;
+    font: bolder 40px times;
+    text-transform: uppercase;
+}
+
+nav h1::first-letter{
+    font-size: 60px;
+    color: #f00;
+    font-weight: bolder;
+    text-shadow: -1px 1px 5px #fff;
+}
+
+nav ul.list{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+nav ul.list li a{
+    color: #f00;
+    font: bold 20px times;
+    transition: 0.5s ease-in-out all;
+}
+
+
+nav ul.list li a:hover{
+    padding: 0 10px;
+    color: #fff;
+    text-shadow: 0 5px 5px #f00;
+}
+
+span.menu{
+    display: none;
+    color: #f00;
+    font-size: 30px;
+    transition: 0.5s ease-in-out all;
+    font-weight: bolder;
+}
+
+span.menu:hover{
+    color: #fff;
+    padding: 0 10px;
+    text-shadow: 0 5px 5px #f00
+}
+
+/****** MAIN SECTION *****/
+
+
+main div.welcome{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    padding-top: 80px;
+}
+
+div.welcome h1{
+    font: bolder 45px times;
+    color: #f00;
+    padding: 10px 0;
+}
+
+div.welcome h1 span{
+    color: #00f;
+    text-decoration: underline #f00;
+}
+div.welcome{
+    margin: 0 30px;
+    font: 20px sans-serif;
+    text-align: justify;
+}
+
+div.welcome h3{
+    color: #00f;
+    font-family: times;
+}
+
+
+
+div.click ul{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin: 20px 0;
+}
+
+div.click ul li a{
+    background-color: #f00;
+    padding: 5px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+
+div.click ul li a:hover{
+    background-color: #00f;
+    opacity: 0.8;
+    padding: 0 25px;
+}
+/***** ALL SHOUD GO ABOVE******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    nav{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav h1{
+        display: inline;
+    }
+    nav ul.list{
+        flex-direction: column;
+        background-color: rgba(0,0,255, 0.3);
+        position: absolute;
+        align-content: center;
+        padding: 10px 0;
+        top: 65px;
+        row-gap: 10px;
+        left: -100%;
+        width: 100%;
+        display: none;
+    }
+    
+    ul.list li{
+        display: inline;
+    }
+ 
+    span.menu{
+        display: block;
+        float: right;
+        line-height: 46px;
+    }
+    
+    ul.list.active{
+        display: flex;
+        left: 0;
+    }
+    main{
+        margin-top: 80px;
+    }
+}
+
+
+@media screen and (max-width: 720px){
+    
+    nav h1{
+        display: inline;
+    }
+    nav ul.list{
+        flex-direction: column;
+        background-color: rgba(0,0,255, 0.3);
+        position: absolute;
+        align-content: center;
+        padding: 10px 0;
+        row-gap: 10px;
+        left: -100%;
+        width: 100%;
+        display: none;
+    }
+    
+    ul.list li{
+        display: inline;
+    }
+ 
+    span.menu{
+        display: block;
+        float: right;
+        line-height: 46px;
+    }
+    
+    ul.list.active{
+        display: flex;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 460px){
+    nav h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    nav h1{
+        font-size: 20px;
+    }
+}
+
+
+/****
+        THIS DESIGN IS DONE AND DUSTED, BY ISACC
+        
+        ADD YOURS IF YOU WANT
+****/

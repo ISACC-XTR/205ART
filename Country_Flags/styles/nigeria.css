@@ -1,0 +1,71 @@
+main.nigeria{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+main.nigeria h1{
+    text-align: center;
+    padding: 20px 0;
+    font:bold 40px times;
+}
+
+main.nigeria h1::first-letter{
+    font-size: 60px;
+    font-family: times;
+    color: forestgreen;
+}
+div.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    height: 300px;
+    border: 5px solid gold;
+    transition: 0.8s all;
+}
+div.all:hover{
+    margin-top: 20px;
+    scale: 1.15;
+}
+div.all div{
+    flex: 1;
+    width: 100%;
+}
+
+div.white{
+    background-color: #fff;
+}
+
+div.green{
+    background-color: forestgreen;
+}
+
+
+div.back{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+div.back a{
+    padding: 5px 10px;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 20px;
+    font: bolder 25px times;
+    outline: none;
+    background-color: forestgreen;
+    box-shadow: -5px 5px 3px limegreen;
+    transition: 0.5s all;
+    margin-bottom: 100px;
+}
+
+div.back a:hover{
+    padding: 0 20px;
+    font: bolder 20px arial;
+    color: forestgreen;
+    box-shadow: 5px 7px 5px grey;
+    background-color: #fff;
+}

@@ -1,0 +1,99 @@
+main.liberia{
+    height: 600px;
+    width: 90%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+main.liberia h1{
+    text-align: center;
+    padding: 20px 0;
+    font:bold 40px times;
+}
+
+main.liberia h1::first-letter{
+    font-size: 60px;
+    font-family: times;
+    color: #00f;
+}
+div.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    border: 5px solid gold;
+    height: 80%;
+    transition: 0.8s all;
+}
+div.all:hover{
+    margin-top: 20px;
+    scale: 1.15;
+}
+div.all div{
+    flex: 1;
+    width: 100%;
+}
+
+div.top{
+    display: flex;
+    background-color: #00f;
+    flex-direction: row;
+    
+}
+div.top div.right{
+    display: flex;
+    flex-direction: column;
+    flex: 190px;
+    
+}
+div.left{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+div.left span{
+    color: #fff;
+    font-size: 120px;
+}
+
+div.bottom{
+    display: flex;
+    flex-direction: column;
+}
+div.red{
+    background-color: red;
+}
+
+div.white{
+    background-color: #fff;
+}
+
+div.back{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+div.back a{
+    margin-top: 20px;
+    padding: 5px 10px;
+    color: #fff;
+    border: 2px solid #f00;
+    border-radius: 20px;
+    font: bolder 25px cursive;
+    outline: none;
+    background-color: #f00;
+    box-shadow: -5px 5px 3px #00f;
+    transition: 0.5s all;
+    margin-bottom: 100px;
+}
+
+div.back a:hover{
+    padding: 0 20px;
+    font: bolder 20px arial;
+    color: #f00;
+    box-shadow: 5px 7px 5px #f00;
+    background-color: #00f;
+    border: none;
+}
