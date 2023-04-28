@@ -1,6 +1,6 @@
 main.liberia{
     height: 600px;
-    width: 90%;
+    width: 88%;
     margin: auto;
     margin-top: 150px;
 }
@@ -26,8 +26,8 @@ div.all{
     transition: 0.8s all;
 }
 div.all:hover{
-    margin-top: 20px;
-    scale: 1.15;
+    margin-top: 20px 0;
+    scale: 1.1;
 }
 div.all div{
     flex: 1;
@@ -43,7 +43,7 @@ div.top{
 div.top div.right{
     display: flex;
     flex-direction: column;
-    flex: 190px;
+    flex: 200px;
     
 }
 div.left{
