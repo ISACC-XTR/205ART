@@ -142,6 +142,12 @@ p.info span a:hover{
 
     /****** MEDIA SCREEN *****/
     
+@media screen and (max-width: 800px){
+    form{
+        padding: 30px;
+    }
+}
+    
 @media screen and (max-width: 640px){
     form{
         height: 100vh;
