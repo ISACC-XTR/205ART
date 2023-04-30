@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background:url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+form{
+    width: 55%;
+    border: 2px solid rgba(255,255,255,0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    padding: 0 20px;
+    height: 360px;
+    row-gap: 20px;
+    padding: 25px;
+    background: transparent;
+
+}
+
+form h2{
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+    padding: 10px 0;
+    font-family: times;
+}
+
+form input:not(input[type="submit"]){
+    border: none;
+    background: transparent;
+    margin: 10px auto;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 25px;
+    width: 90%;
+    color: #fff;
+    transition: 0.5s all;
+}
+
+form input:not(input[type="submit"])::placeholder{
+    text-align: left;
+    color:#eee;
+    font-family: times;
+    padding: 5px 0;
+}
+
+form input:not(input[type="submit"]):hover{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+form input[type="submit"]{
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    outline: none;
+    width: 60%;
+    margin: 10px auto;
+    font: bold 25px arial;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 5px 0;
+    box-shadow: 0 1px 1px 1px #fff;
+    transition: 0.3s all;
+}
+
+form input[type="submit"]:hover{
+    translate:0 -5px;
+    backdrop-filter: blur(50px);
+    box-shadow: -3px 3px 3px #fff;
+    border: 1px solid #fff;
+}
+
+
+    /****** MEDIA SCREEN *****/
+    
+@media screen and (max-width: 640px){
+    form{
+        height: 100vh;
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        backdrop-filter: blur(15px);
+    }
+    
+    form h2{
+        font-size: 35px;
+        padding: 0;
+        padding-bottom: 50px;
+    }
+    form input[type="submit"]{
+        width: 30%;
+    }
+}
