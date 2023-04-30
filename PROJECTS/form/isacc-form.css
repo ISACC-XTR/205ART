@@ -28,7 +28,7 @@ form{
     border-radius: 20px;
     backdrop-filter: blur(20px);
     padding: 0 20px;
-    height: 360px;
+    height: 400px;
     row-gap: 20px;
     padding: 25px;
     background: transparent;
@@ -89,6 +89,56 @@ form input[type="submit"]:hover{
     border: 1px solid #fff;
 }
 
+div.user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15px;
+}
+
+div.left{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+div.left span,
+div.ask span{
+    font-size: 20px;
+    color: #fff;
+}
+div.left input{
+    height: 100%;
+}
+
+div.ask{
+    display: flex;
+    align-items: center;
+}
+
+p.info{
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+p.info span a{
+    color: darkorange;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    transition: 0.6s all;
+    padding: 5px 0;
+}
+
+p.info span a:hover{
+    color: #f00;
+    text-decoration: none;
+    translate: 0 -8px;
+    font-size: 28px;
+    
+}
 
     /****** MEDIA SCREEN *****/
     
