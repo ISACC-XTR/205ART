@@ -62,7 +62,7 @@ form input:not(input[type="submit"])::placeholder{
     padding: 5px 0;
 }
 
-form input:not(input[type="submit"]):hover{
+form input:not(input[type="submit"]):hover{ 
     padding-top: 30px;
     padding-left: 20px;
 }
