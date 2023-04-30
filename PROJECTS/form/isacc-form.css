@@ -28,9 +28,9 @@ form{
     border-radius: 20px;
     backdrop-filter: blur(20px);
     padding: 0 20px;
-    height: 400px;
+    height: 450px;
     row-gap: 20px;
-    padding: 25px;
+    padding: 30px;
     background: transparent;
 
 }
@@ -158,5 +158,13 @@ p.info span a:hover{
     }
     form input[type="submit"]{
         width: 30%;
+    }
+    
+    p.info{
+        font-size: 18px;
+    }
+    
+    p.info span a:hover{
+        font-size: 20px;
     }
 }
