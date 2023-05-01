@@ -80,6 +80,7 @@ form input[type="submit"]{
     padding: 5px 0;
     box-shadow: 0 1px 1px 1px #fff;
     transition: 0.3s all;
+    text-align: center;
 }
 
 form input[type="submit"]:hover{
@@ -146,6 +147,12 @@ p.info span a:hover{
     form{
         padding: 30px;
     }
+    
+    form h2{
+        font-size: 23px;
+        font-weight: bolder;
+        text-shadow: -2px 2px 2px #000;
+    }
 }
     
 @media screen and (max-width: 640px){
@@ -155,12 +162,18 @@ p.info span a:hover{
         border: none;
         border-radius: 0;
         backdrop-filter: blur(15px);
+        
+    }
+    
+    div.user{
+        padding: 0 10px;
     }
     
     form h2{
         font-size: 35px;
         padding: 0;
         padding-bottom: 50px;
+        text-shadow: none;
     }
     form input[type="submit"]{
         width: 30%;
@@ -172,5 +185,58 @@ p.info span a:hover{
     
     p.info span a:hover{
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    form h2{
+        font-size: 28px;
+    }
+    
+    div.user{
+        padding: 0 7px;
+    }
+    
+    div.left span,
+    div.ask span{
+        font-size: 19px;
+    }
+    
+    form input[type="submit"]{
+        width: 30%;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    form h2{
+        font-size: 25px;
+    }
+    div.user{
+        padding: 0 5px;
+    }
+    
+    div.left span,
+    div.ask span{
+        font-size: 17px;
+    }
+    
+    form input[type="submit"]{
+        width: 35%;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    form h2{
+        font-size: 22px;
+    }
+    div.user{
+        padding: 0 2px;
+    }
+    
+    div.left span,
+    div.ask span{
+        font-size: 12px;
     }
 }
