@@ -154,14 +154,14 @@ div.intro{
     right: 0;
     bottom: 0;
     left: 0;
-    height: 45px;
+    height: 40px;
     border-radius: 0 0 10px 10px;
     overflow: hidden;
     transition: 0.5s all;
 }
 
 div.intro h1{
-    font: bold 35px times;
+    font: bold 30px times;
     background-color: limegreen;
     border-radius: 0 20px 20px 0;
     width: fit-content;
@@ -171,7 +171,7 @@ div.intro h1{
 }
 
 div.intro p{
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px 10px;
     font-weight: bold ;
     visibility: hidden;
@@ -245,15 +245,15 @@ main section:hover div.intro p{
         height: 70px;
     }
     div.intro h1{
-        font-size: 60px;
+        font-size: 50px;
     }
     
     div.intro p{
-        font-size: 30px;
+        font-size: 25px;
     }
     
     main section:hover div.intro {
-    height: 450px;
+    height: 400px;
     }
 }
 
@@ -270,14 +270,14 @@ main section:hover div.intro p{
         height: 45px;
     }
     div.intro h1{
-        font-size: 35px;
+        font-size: 30px;
     }
     
     div.intro p{
-        font-size: 15px;
+        font-size: 12px;
     }
     
     main section:hover div.intro {
-    height: 240px;
+    height: 220px;
 }
 }
